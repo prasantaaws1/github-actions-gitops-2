@@ -6,7 +6,7 @@ on:
 
 jobs:
   compile:
-    runs-on: main
+    runs-on: node1
 
     steps:
     - uses: actions/checkout@v4
